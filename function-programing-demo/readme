@@ -1,0 +1,7 @@
+
+    Predicate<T>——接收 T 并返回 boolean
+    Consumer<T>——接收 T，不返回值
+    Function<T, R>——接收 T，返回 R
+    Supplier<T>——提供 T 对象（例如工厂），不接收值
+    UnaryOperator<T>——接收 T 对象，返回 T
+    BinaryOperator<T>——接收两个 T，返回 T
