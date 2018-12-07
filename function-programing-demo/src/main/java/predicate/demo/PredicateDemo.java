@@ -42,11 +42,12 @@ public class PredicateDemo  extends TestCase {
 
     @Test
     public  void  testSelfDefineDemo(){
-
-
-
+        Predicate<String> predicate1 = s->s.contains("a");
+        Boolean flag=Validator.checkParam(predicate1,"a");
+        System.out.println(flag);
 
     }
+
 
 
 
